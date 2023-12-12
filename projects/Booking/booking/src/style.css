@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main-header {
+    background: #003b95;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.nevbar img {
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nevbar img:hover {
+    background-color: #336097;
+
+}
+
+.nevbar span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nevbar span:hover {
+    background-color: #336097;
+    border-radius: 5px;
+}
+
+
+.nevbar .logo {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.nevbar .logo:hover {
+    background-color: #336097;
+    border-radius: 5px;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.text h4 {
+    margin-left: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.text h4:hover {
+    background-color: #336097;
+    border-radius: 5px;
+}
+
+.text button {
+    padding: 5px 15px;
+    color: #006ce4;
+    font-size: 15px;
+    margin-left: 10px;
+    border: 1px solid #006ce4;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+svg {
+    fill: white;
+}
+
+.hedar-bootam {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.hedar-bootam ul li {
+    list-style: none;
+}
+
+.stays .icon {
+    border: 2px solid white;
+    background-color: #003b95;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Flights .icon {
+    border: none;
+    background-color: #003b95;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.Flights .icon:hover {
+    background-color: #336097;
+    border-radius: 30px;
+}
+
+.stays button {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Flights button {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.ul-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hedar-text {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 30px;
+
+}
+
+.sidualBar {
+    width: 50%;
+    background-color: #ffb700;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -7%;
+    left: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidualBar i {
+    font-size: 20px;
+    transform: translate(250px, -30px);
+    cursor: pointer;
+}
+
+.sidualBar .serchBar {
+    width: 30%;
+    padding: 10px 10px 10px;
+    border: 2px solid #ffb700;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.serchBar input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.serchBar input:focus {
+    border: 1.5px solid #006CE4;
+}
+
+.serchBar input::placeholder {
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.sidualBar .serchBtn {
+    width: 10%;
+}
+
+.serchBtn button {
+    width: 100%;
+    height: 100%;
+    background-color: #006CE4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+.serchBtn button:hover {
+    background-color: #003B95;
+}
+
+/* ----------------------------------------- */
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 61%;
+}
+
+.card-img img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+.card-text-hed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.card-text-hed-tx {
+    margin-left: 20px;
+}
+
+.card-text-hed-tx i {
+    color: #ffb700;
+}
+
+.card-text-hed-tx span a {
+    margin: 5px;
+}
+
+.card-text-hed-tx p span {
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(79, 156, 2);
+    border-radius: 5px;
+}
+
+.card-text-hed-tx p {
+    margin-top: 10px;
+}
+
+.card-text-hed-but {
+    margin-left: 30px;
+}
+
+.card-text-hed-rat button {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #006CE4;
+}
+
+.card-text-prd {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card-text-prd-one {
+    margin-left: 20px;
+}
+
+.card-text-prd-num {
+    margin: auto;
+}
+
+
+.card-text-prd-num span {
+    margin: 10px;
+    color: red;
+}
+
+.card-tex-but button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #006CE4;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* media */
+
+@media (max-width:1200px) {
+
+    .sidualBar .serchBtn {
+        width: 25%;
+    }
+
+
+}
+
+@media (max-width:998px) {
+    .card-main {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sidualBar .serchBtn {
+        width: 25%;
+    }
+}
+
+@media(max-width: 900px) {
+    .nevbar {
+        display: none;
+    }
+
+    .List {
+        display: none;
+    }
+}
+
+@media(max-width: 810px) {
+    .hedar-bootam {
+        display: none;
+    }
+
+}
+
+@media(max-width: 705px) {
+
+    .card-text-prd {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 680px) {
+    .card-text-prd {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-text-hed-tx span a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card-text-hed {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-text-hed-rat button {
+        margin-top: 10px;
+    }
+
+    .card-text-hed-but {
+        margin-top: 10px;
+
+    }
+
+    .sidualBar {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        bottom: -45%;
+        left: 5%;
+    }
+
+
+    .sidualBar .serchBar {
+        width: 100%;
+        padding: 10px 10px 10px;
+    }
+
+    .serchBtn button {
+        padding: 10px 10px 10px;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+    }
+}
+
+/* media */

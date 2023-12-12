@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "img_url": "https://picsum.photos/id/111/200/300",
+        "title": "Porvorim Regency Goa Hotel by BSG Absolute ",
+        "reviews":"11 reviews",
+        "rate":"9.6",
+        "city":"Ahemdabad",
+        "description": "Dummy description for item 1. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+        
+    },
+    {
+        "id": 2,
+        "img_url": "https://picsum.photos/id/112/200/300",
+        "title": "OYO Flagship Etllina Valley Villa in new window",
+        "rate":"9.9",
+        "reviews":"12 reviews",
+        "city":"Morbi",
+        "description": "Dummy description for item 2. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 3,
+        "img_url": "https://picsum.photos/id/113/200/300",
+        "rate":"10.01",
+        "reviews":"13 reviews",
+        "city":"Rajkot",
+        "title": "Whoopers Home Palolem, in new window ",
+        "description": "Dummy description for item 3. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 4,
+        "img_url": "https://picsum.photos/id/114/200/300",
+        "rate":"5.55",
+        "reviews":"14 reviews",
+        "city":"Halvad",
+        "title": "The Golden Wings Resort, Goa new window",
+        "description": "Dummy description for item 4. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 5,
+        "img_url": "https://picsum.photos/id/115/200/300",
+        "rate":"60.8",
+        "reviews":"15 reviews",
+        "city":"junagadh",
+        "title": "The Four season cottage By, in new window",
+        "description": "Dummy description for item 5. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 6,
+        "img_url": "https://picsum.photos/id/116/200/300",
+        "rate":"8.90",
+        "reviews":"16 reviews",
+        "city":"Surendrangar",
+        "title": "U.R.D.Ki HostelOpens By, in new window",
+        "description": "Dummy description for item 6. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 7,
+        "img_url": "https://picsum.photos/id/117/200/300",
+        "rate":"7.10",
+        "reviews":"17 reviews",
+        "city":"Amreli",
+        "title": "Nirvana Hill ResortOpens in new window",
+        "description": "Dummy description for item 7. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 8,
+        "img_url": "https://picsum.photos/id/118/200/300",
+        "rate":"15.20",
+        "reviews":"18 reviews",
+        "city":"Surat",
+        "title": "Porvorim Regency Goa Hotel by BSG Absolute",
+        "description": "Dummy description for item 8. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 9,
+        "img_url": "https://picsum.photos/id/119/200/300",
+        "rate":"3.10",
+        "reviews":"19 reviews",
+        "city":"Mumbai",
+        "title": "Sea Sapphire Sea Sapphire, in new window",
+        "description": "Dummy description for item 9. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    },
+    {
+        "id": 10,
+        "img_url": "https://picsum.photos/id/120/200/300",
+        "rate":"9.02",
+        "reviews":"20 reviews",
+        "city":"Delhi",
+        "title": "Kay's By The SeaOpens, in new window",
+        "description": "Dummy description for item 10. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description."
+    }
+]
+    
